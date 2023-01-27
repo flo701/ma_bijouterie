@@ -1,0 +1,6 @@
+@media screen and (max-width:768px){
+    .img-product, .form img {
+        width:180px;
+    }
+}
+
