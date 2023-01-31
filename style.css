@@ -4,3 +4,16 @@
     }
 }
 
+.mobile {
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    .tableau {
+        display: none;
+    }
+    .mobile {
+        display: block !important;
+    }
+}
+

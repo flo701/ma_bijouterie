@@ -48,9 +48,9 @@ if (!empty($_POST)) {
         ));
 
         // $requ renvoie false ou un objet pdoStatement
-        // Si $req renvoie false alors on renvoie un message d'erreur et on le redirige sur la même page pour afficher le message d'erreur
+        // Si $req renvoie false, alors on renvoie un message d'erreur et on le redirige sur la même page pour afficher le message d'erreur :
         if (!$req) {
-            $_SESSION['messages']['danger'][] = 'Une serreur s\'est produite, veuillez recommencer';
+            $_SESSION['messages']['danger'][] = 'Une erreur s\'est produite. Veuillez recommencer';
             header('location:formulaireProduit.php');
             exit();
         } else { // sinon on redirige sur la page gestion avec un message de succès :
@@ -60,7 +60,7 @@ if (!empty($_POST)) {
         }
     } // Fin de condition de présence de fichier photo à l'ajout
 
-    // Condition pour s'assurer d'être en modification
+    // Condition pour s'assurer d'être en modification :
     if (isset($_POST['id'])) {
 
         // On vérifie s'il y a un fichier en cours d'upload sur l'input type file editPicture
