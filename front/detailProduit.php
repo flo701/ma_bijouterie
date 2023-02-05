@@ -45,7 +45,7 @@ if (!empty($_POST)) {
     <form method="post" action="">
         <input type="hidden" name="id_product" value="<?= $product['id']; ?>">
         <div class="col-4 mx-auto text-center ">
-            <label for="floatingSelect">Selectionner votre note</label>
+            <label for="floatingSelect" class="mt-2 mb-2">Selectionnez votre note :</label>
             <select name="rate" class="bg-light text-dark form-select border-primary mt-1" id="floatingSelect" aria-label="Floating label select example">
                 <option selected>Notes de 1 à 5</option>
                 <option value="1">1</option>
@@ -56,7 +56,7 @@ if (!empty($_POST)) {
             </select>
         </div>
         <div class="col-7 mt-4 mb-3 mx-auto text-center">
-            <label for="floatingTextarea2">Laisser un commentaire</label>
+            <label for="floatingTextarea2" class="mb-2">Laissez un commentaire :</label>
             <textarea name="comment" class="bg-light text-dark form-control border-primary my-1" id="floatingTextarea2" style="height: 100px" placeholder="Votre commentaire"></textarea>
         </div>
         <div class="text-center">

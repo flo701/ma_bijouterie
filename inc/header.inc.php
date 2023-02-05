@@ -31,26 +31,15 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="<?= BASE; ?>">Accueil</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
                     <?php if (admin()) : ?>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ADMIN</a>
                             <div class="dropdown-menu text-dark">
-                                <a class="dropdown-item text-dark" href="<?= BASE . 'back/formulaireProduit.php'; ?>">Ajouter
+                                <a class="dropdown-item text-dark" href="<?= BASE . 'back/formulaireProduit.php'; ?>">Ajouter un
                                     produit</a>
-                                <a class="dropdown-item text-dark" href="<?= BASE . 'back/gestionProduit.php'; ?>">Gestion
+                                <a class="dropdown-item text-dark" href="<?= BASE . 'back/gestionProduit.php'; ?>">Gestion des
                                     produits</a>
-                                <a class="dropdown-item text-dark" href="<?= BASE . 'back/gestionCategorie.php'; ?>">Gestion Catégories</a>
-                                <div class="dropdown-divider bg-dark"></div>
-                                <a class="dropdown-item text-dark" href="#">Separated link</a>
+                                <a class="dropdown-item text-dark" href="<?= BASE . 'back/gestionCategorie.php'; ?>">Gestion des catégories</a>
                             </div>
                         </li>
                     <?php endif; ?>
