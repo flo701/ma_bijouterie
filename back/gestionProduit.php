@@ -71,7 +71,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'delete' && isset($_GET['id']))
                 <p class="text-center">Prix : <?= $product['price']; ?>€</p>
                 <p class="text-center">Description : <?= $product['description']; ?></p>
                 <div class="text-center">
-                    <img src="<?= BASE . $product['picture']; ?>" width="90" class="rounded-top img-fluid" alt="photo du bijou">
+                    <img src="<?= BASE . $product['picture']; ?>" width="90" class="rounded img-fluid mb-2" alt="photo du bijou">
                 </div>
                 <div class="text-center">
                     <a href="<?= BASE . 'back/formulaireProduit.php?id=' . $product['id']; ?>" class="btn btn-info mb-2">Modifier</a>
