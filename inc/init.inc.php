@@ -13,7 +13,7 @@ function debug($var)
     echo '</pre>';
 }
 
-define('BASE', '/PHP/PHP_mon_dossier/08-projet/');
+define('BASE', '/ma_bijouterie/');
 
 function executeRequete($requete, $param  = array())
 {
