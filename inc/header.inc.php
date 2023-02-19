@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/PHP/PHP_mon_dossier/08-projet/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/PHP/PHP_mon_dossier/08-projet/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/PHP/PHP_mon_dossier/08-projet/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/PHP/PHP_mon_dossier/08-projet/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/ma_bijouterie/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/ma_bijouterie/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/ma_bijouterie/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/ma_bijouterie/favicon/site.webmanifest">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.3/cerulean/bootstrap.min.css" integrity="sha512-1rXsIsq9uaj3bxRth2+Mw1slRDxuPzGlfJ8PaLmkO3/OtvCL7jVQrdxaC1VvCmCzKRMdKu0pmbCtqQz/3/xORA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="/PHP/PHP_mon_dossier/08-projet/style.css">
+    <link rel="stylesheet" href="/ma_bijouterie/style.css">
 
     <title>Ma Bijouterie</title>
 </head>
