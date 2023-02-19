@@ -1,4 +1,6 @@
 # Ma Bijouterie
+
+## Voir le site
 - Visitez le site en cliquant [ici](http://florence-leclercq.alwaysdata.net/ma_bijouterie/).
 
 ## Accéder à l'espace Admin
